@@ -1,5 +1,5 @@
-import { FastifyInstance } from 'fastify';
-import { BadRequest } from "./src/routes/_errors/bad-request";
+import { FastifyInstance } from 'fastify'
+import { BadRequest } from "./bad-request";
 import { ZodError } from 'zod';
 
 type FastifyErrorHandler = FastifyInstance['errorHandler']
